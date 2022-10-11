@@ -5,7 +5,7 @@ Projektet foregår som en Code-Along og viser HTML, CSS og JavaScript.
 Derudover gives der mulighed for at customize produktet gennem introduktion til [fontawesome](https://fontawesome.com/), [CSS animate library](https://animate.style/), [google fonts](https://fonts.google.com/) mm. 
 
 
-Alternative baggrunde kan laves/ses på [Gradient generator](https://cssgradient.io/gradient-backgrounds/)
+Alternative baggrunde kan laves/ses på [Gradient generator](https://cssgradient.io/gradient-backgrounds/). CSSen kan kopieres ind i `body{}` i CSS filen.
 
 **Følgende `<link>'s` kan være værd at have i baghånden:**
 
@@ -20,7 +20,12 @@ Alternative baggrunde kan laves/ses på [Gradient generator](https://cssgradient
 />
 ```
 [CSS Animate library](https://animate.style/)
-`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />`
+```
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+```
+**HUSK:** at tilføje `animate__animated` class før den valgte animations class f.eks.: `<article class="animate__animated animate__bounce">`
+
 
 [Google fonts Mono space](https://fonts.google.com/specimen/Space+Mono?query=mono)
 ```
@@ -28,6 +33,9 @@ Alternative baggrunde kan laves/ses på [Gradient generator](https://cssgradient
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" />
 ```
+I finder dette link inde på google fonts når i har tilføjet de fonts i ønsker at bruge. Husk også at tilføje CSS med f.eks. `font-family: "mono space", sans serif;` til `body{}`.
+
+
 [sketchapp sources profile illustration](https://www.sketchappsources.com/free-source/3781-profile-illustration-user-sketch-freebie-resource.html)
 ```
 <img
